@@ -16,14 +16,15 @@ function whileLoop(n) {
 }
 whileLoop(10)
 
-myArray = ['a','b','c','d','e']
+numb = ['1','2','3','4','5','6']
 function doWhileLoop(array) {
   function maybeTrue() {
-  return array.length > 0
-}
-
-do {
-  array.splice(0, 1)
+    return array.length > 0
+   }
+ 
+   do {
+   array.splice(0, 1)
 } while (maybeTrue());
+ return array
 }
-doWhileLoop(myArray)
+doWhileLoop(numb)
